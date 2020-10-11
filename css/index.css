@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;  
+
+} 
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: ArialMT;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: rgb(68, 81, 97);
+}
+h3 {
+    font-family: ArialMT;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgb(68, 81, 97);
+}
+p {
+    font-family: ArialMT;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+}
+.header {
+    min-height: 323px;
+    background: #445163;
+    display: flex;
+    justify-content: space-between; 
+}
+.header-title{
+    font-family: ArialMT;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+}
+.header h1 {
+    font-family: ArialMT;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.img-sport{
+    width: 469px;
+    height: 214px;
+    background-color: #ffffff;
+    margin-right: 50px;
+    margin-top: 50px;
+    
+}
+.header ul {
+    font-family: ArialMT;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-left: 50px;
+    margin-top: 20px;
+    list-style: none;
+    padding: 0 0 0 20px;   
+}
+
+.header-item {
+    position: relative;
+}
+
+.header-item:before{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    content:'';
+    background-image: url(../img/check_icon_348.png);
+    background-size: 20px 20px;
+    box-shadow: 1px 1px 5px #000;
+    left: -30px;
+    top: 8px;  
+}
+
+.product-text {
+    font-family: ArialMT;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+    max-width: 650px;
+}
+
+.about-product{
+    display: flex;
+    justify-content: space-between; 
+    margin: 50px 50px 0 50px;
+}
+
+.Dignity-product {
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: ArialMT;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+}
+.dignity-list-item{
+    max-width: 526px;
+    max-height: 63px;
+    margin-bottom: 35px;
+}
+.dignity-list-item {
+        position: relative;
+}
+.dignity-list-item:before{
+  width: 30px;
+    height: 30px;
+    position: absolute;
+    content:'';
+    background-image: url(../img/plus_circle_icon_152558.png);
+    background-size: 30px 30px;
+    left: -35px;
+
+}
+.dignity-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+ 
+.Dignity {
+    
+    background: #F4F6F4;
+}
+.item {
+    margin-left: 30px;
+    
+}
+
+/* screenshots */
+
+.screenshots-header {
+    text-align: center;
+    margin-top: 30px;
+    font-family: ArialMT;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: rgb(68, 81, 97);
+}
+.screenshots-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.screenshots-oject {
+    display: flex;
+}
+.imag-screenshots {
+    margin: 0px 20px 20px 0px;
+}
+.screenshots-text {
+    max-width: 359px;
+    max-height: 108px;
+}
+
+/* reviews */
+
+.reviews-header {
+    background: rgb(244, 246, 244);
+}
+.reviews-title {
+    text-align: center;
+    margin-top: 30px;
+    font-family: ArialMT;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: rgb(68, 81, 97);
+    padding-top: 20px;
+}
+.screenshots-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.screenshots-oject {
+    display: flex;
+}
+.coment-fon {
+    background-image: url(../img/coment-fon.png);
+    margin: 0px 20px 20px 0px;
+}
+.coment-text {
+    max-width: 436px;
+    min-height: 64px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+/* Buy it now */
+
+.product-block {
+    display: flex;
+    justify-content: center;
+}
+.bay-product {
+    width: 300px;
+    height: 300px;
+    background: rgb(68, 81, 99);
+}
+.pruduct-title {
+    height: 50px;
+    font-family: ArialMT;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.price-block {
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    margin: 0px 2px;
+}
+.price {
+    font-family: ArialMT;
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgb(68, 81, 98);
+}
+.product-item {
+    font-family: ArialMT;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    margin: 25px 0px 0px 25px;
+}
